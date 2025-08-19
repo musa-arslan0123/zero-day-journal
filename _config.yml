@@ -34,7 +34,7 @@ collections:
     permalink: /:categories/:title/
   pages:
     output: true
-    permalink: /:path
+    permalink: /:path/
 
 # Defaults
 defaults:
