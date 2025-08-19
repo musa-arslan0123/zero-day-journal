@@ -1,5 +1,5 @@
 ---
-title: "Getting started: the plan"
+title: "Getting started: Networks"
 date: 2025-08-19 09:00:00 +0800
 tags: [Networks]
 categories: [journal]

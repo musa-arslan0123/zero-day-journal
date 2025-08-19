@@ -1,5 +1,5 @@
 ---
-title: "Getting started: test"
+title: "Getting started: Security"
 date: 2025-08-19 09:00:00 +0800
 tags: [Security]
 categories: [journal]
