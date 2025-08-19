@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe: Blue Room"
 date: 2025-08-20 09:00:00 +0800
-categories: [labs]
+categories: [labs, journal]
 tags: [lab-notes, tryhackme, networking]
 ---
-First post
+# First post
