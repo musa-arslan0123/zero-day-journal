@@ -1,27 +1,24 @@
-title: Musa’s Cyber Journey
+title: Zero Day Journal
 author: Musa Arslan
 email: 
 description: >-
-  Notes from my path from Service Desk to Cyber — labs, lessons, and mistakes I learned from.
+  Documenting my journey from Service Desk to Cyber — notes, labs, and lessons learned.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: ""     # the base hostname & protocol for your site
+url: "https://musa-arslan0123.github.io/zero-day-journal"
 theme: minima
 plugins:
   - jekyll-feed
 
-# Minima settings
 minima:
   skin: auto
   social_links:
-    - { platform: github,  user_url: "https://github.com/" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/" }
+    - { platform: github, user_url: "https://github.com/musa-arslan0123" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/musa-arslan0123" }
 
-# Build settings
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Collections and defaults
 defaults:
   - scope:
       path: ""
@@ -31,3 +28,4 @@ defaults:
       author: "Musa Arslan"
       categories: [learning]
       tags: [cyber, lab-notes]
+
