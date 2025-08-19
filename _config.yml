@@ -1,0 +1,78 @@
+title: Zero Day Journal
+name: Zero Day Journal
+description: Notes, labs, and lessons from my path into cyber.
+url: "https://musa-arslan0123.github.io"
+baseurl: "/zero-day-journal"
+repository: "musa-arslan0123/zero-day-journal"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, dirt, neon, mint, sunrise
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+author:
+  name: "Musa Arslan"
+  avatar: "/assets/img/avatar.png"
+  bio: "Service Desk → Cyber. I write short lab notes and takeaways."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/musa-arslan0123"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/musa-arslan0123"
+
+# Navigation
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      classes: wide
+      toc: true
+      toc_label: "On this page"
+      toc_icon: "list"
+      toc_sticky: true
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/musa-arslan0123"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/musa-arslan0123"
+
+# SEO
+logo: "/assets/img/logo.png"
+
+# Analytics (optional)
+# google_analytics: ""
+
+# Build
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+permalink: /:categories/:title/
+timezone: Australia/Perth
