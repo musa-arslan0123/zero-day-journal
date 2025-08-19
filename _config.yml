@@ -32,6 +32,9 @@ collections:
   posts:
     output: true
     permalink: /:categories/:title/
+  pages:
+    output: true
+    permalink: /:path
 
 # Defaults
 defaults:
