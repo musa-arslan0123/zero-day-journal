@@ -1,5 +1,5 @@
 ---
-title: "Networking Notes"
+title: "Networking Notes LAN Topologies and Subnetting"
 date: 2025-08-20 10:00:00 +0800
 tags: [Networks, Try-Hack-Me]
 categories: [journal]
