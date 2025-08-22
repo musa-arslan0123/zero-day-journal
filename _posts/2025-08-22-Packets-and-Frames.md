@@ -1,12 +1,7 @@
 ---
-layout: post
 title: "Packets & Frames: The Tiny Workhorses of Networking"
 tags: [Networks, Try-Hack-Me]
 categories: [journal, Packets-and-Frames]
-author_profile: true
-header:
-  overlay_filter: 0.4
-  caption: "Where your data learns to carpool"
 excerpt: "Packets, frames, TCP, UDP, ports — all the small but mighty heroes that keep the internet running."
 ---
 
