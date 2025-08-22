@@ -1,8 +1,9 @@
 ---
+layout: post
 title: "Packets & Frames: The Tiny Workhorses of Networking"
+date: 2025-08-22
 tags: [Networks, Try-Hack-Me]
 categories: [journal, Packets-and-Frames]
-excerpt: "Packets, frames, TCP, UDP, ports — all the small but mighty heroes that keep the internet running."
 ---
 
 When you send a cat picture to your friend, you might imagine the entire photo galloping across the internet in one big glorious piece.  
