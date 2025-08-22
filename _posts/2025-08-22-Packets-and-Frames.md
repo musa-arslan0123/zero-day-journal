@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Packets & Frames: The Tiny Workhorses of Networking"
-date: 2025-08-22
+date: 2025-08-22 10:30:00 +0800
 tags: [Networks, Try-Hack-Me]
 categories: [journal, Packets-and-Frames]
 ---
