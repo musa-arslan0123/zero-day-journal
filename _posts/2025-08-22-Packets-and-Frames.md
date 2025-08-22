@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "Packets & Frames: The Tiny Workhorses of Networking"
 date: 2025-08-22 10:30:00 +0800
 tags: [Networks, Try-Hack-Me]
-categories: [journal, Packets-and-Frames]
+categories: [journal, Packets-and-Frames, TCP,UDP]
 ---
 
 When you send a cat picture to your friend, you might imagine the entire photo galloping across the internet in one big glorious piece.  

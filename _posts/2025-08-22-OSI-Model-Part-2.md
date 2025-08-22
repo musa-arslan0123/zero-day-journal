@@ -1,76 +1,51 @@
 ---
-title: "Networking Notes: OSI Model (Part 1)"
+title: "Networking Notes: OSI Model (Part 2)"
 date: 2025-08-20 12:30:00 +0800
 tags: [Networks, Try-Hack-Me]
 categories: [journal, OSI-Model]
 ---
 
-# Networking Notes: OSI Model (Part 1)
+# Networking Notes: OSI Model (Layers 6 & 7)
 
-The **OSI model** (Open Systems Interconnection) is a framework that defines how devices communicate across a network. It provides a universal structure so that hardware and software from different vendors can interoperate.  
-
-Each layer in the OSI model has its own responsibilities, and data is passed through these layers as it moves across a network. For now, we’ll look at the first four layers.
+Continuing with the OSI model, these are the top two layers where **user interaction** and **data translation** happen.
 
 ---
 
-## Physical Layer (Layer 1)
-- **Description:** Concerned with the physical components of networking.  
-- Devices use **electrical signals** (1s and 0s) to transfer data.  
-- Examples: Ethernet cables, fiber optics, hubs.  
+## Presentation Layer (Layer 6)
+
+- **Purpose:**  
+  Standardises how data is presented across different systems.  
+- **Translation:**  
+  Converts data into a common format so that the receiving system understands it, even if it uses different software.  
+- **Example:**  
+  When you send an email from one client, the recipient might use a completely different email program — the presentation layer ensures the content still displays correctly.  
+- **Security:**  
+  Data encryption (e.g., **HTTPS**) and sometimes compression happen here.  
+- **Key Role:**  
+  Acts as a translator and formatter between the application layer and the lower layers.
 
 ---
 
-## Data Link Layer (Layer 2)
-- **Description:** Handles **physical addressing** using MAC addresses.  
-- Receives packets from the network layer and adds the **MAC address** of the receiving endpoint.  
-- Every NIC (Network Interface Card) has a unique MAC address burned in by the manufacturer (though it can be spoofed).  
-- Also presents the data in a format suitable for transmission.  
-- Devices: switches, NICs.  
+## Application Layer (Layer 7)
+
+- **Purpose:**  
+  Provides the interface between the **end user** and the network.  
+- **Protocols & Services:**  
+  - **HTTP/HTTPS** → Web browsing  
+  - **SMTP/IMAP/POP3** → Email  
+  - **DNS** → Resolving domain names to IP addresses  
+  - **FTP** → File transfers  
+- **User Interaction:**  
+  Email clients, browsers, file transfer apps (e.g., FileZilla) all operate here with GUIs for user-friendly access.  
+- **Key Role:**  
+  Determines how user applications communicate with network services.
 
 ---
 
-## Network Layer (Layer 3)
-- **Description:** Responsible for **routing** and determining the optimal path for data.  
-- Works with **IP addresses** (e.g., `192.168.1.100`).  
-- Routing decisions can be based on:
-  - Shortest path (fewest hops).
-  - Reliability (packet loss history).
-  - Connection speed (fiber vs copper).  
-- Protocols: **OSPF**, **RIP**, **ICMP**.  
-- Devices: routers (Layer 3 devices).  
+## Summary of Layers 6 & 7
+- **Layer 6 (Presentation):** Data translation, formatting, encryption.  
+- **Layer 7 (Application):** End-user applications, protocols, and services.  
 
----
-
-## Transport Layer (Layer 4)
-- **Description:** Ensures reliable (or fast) delivery of data.  
-- Two main protocols: **TCP** and **UDP**.  
-
-### Transmission Control Protocol (TCP)
-- **Advantages:**
-  - Guarantees accurate, ordered delivery of data.
-  - Synchronises devices to avoid overwhelming the receiver.
-- **Disadvantages:**
-  - Slower due to reliability overhead.
-  - Requires a stable connection.  
-- **Use cases:** file transfers, email, web browsing.
-
-### User Datagram Protocol (UDP)
-- **Advantages:**
-  - Faster, lightweight, no connection overhead.
-  - Good for real-time data streams.
-- **Disadvantages:**
-  - No error checking or guarantee of delivery.
-  - Data can be lost without notice.  
-- **Use cases:** video streaming, VoIP, discovery protocols (e.g., ARP, DHCP).
-
----
-
-## Summary
-- **Layer 1 (Physical):** Hardware and signals.  
-- **Layer 2 (Data Link):** MAC addressing and framing.  
-- **Layer 3 (Network):** Routing and IP addressing.  
-- **Layer 4 (Transport):** TCP vs UDP for delivery.  
-
-Further layers (Session, Presentation, Application) will be covered later.  
+With this, all **seven OSI layers** have been covered across your posts.
 
 ---
