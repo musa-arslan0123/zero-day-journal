@@ -38,10 +38,16 @@ Firewalls can be:
 - **Combo units** → Your home router likely does both.
 
 ### Stateful vs Stateless  
-| Type        | How It Works                                                   | Pros & Cons                                 |
-|-------------|---------------------------------------------------------------|--------------------------------------------|
-| **Stateful**| Looks at the *entire connection*, not just one packet.         | Smarter but uses more resources.            |
-| **Stateless**| Judges each packet individually against static rules.         | Faster, simpler, but dumber.                |
+### Stateful vs Stateless  
+
+### Stateful vs Stateless  
+
+| Type        | How It Works                                         | Pros & Cons                               |
+|-------------|-----------------------------------------------------|-------------------------------------------|
+| Stateful     | Looks at the entire connection, not just one packet | Smarter decisions but uses more resources |
+| Stateless    | Judges each packet individually with static rules   | Faster, simpler, but less flexible        |
+
+
 
 If stateful firewalls are detectives solving whole crimes, stateless firewalls are mall cops checking one shopper at a time.
 
