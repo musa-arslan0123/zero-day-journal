@@ -18,14 +18,14 @@ plugins:
 author:
   name: "Musa Arslan"
   avatar: "/assets/img/avatar.png"
-  bio: "Service Desk → Cyber. I write short lab notes and takeaways."
+  bio: "Cyber Zero → Cyber Hero. I write short lab notes and takeaways."
   links:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/musa-arslan0123"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/musa-arslan0123"
+      url: "www.linkedin.com/in/muhammad-musa-arslan"
 
 # Navigation
 collections:
